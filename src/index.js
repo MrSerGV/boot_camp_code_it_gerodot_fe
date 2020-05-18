@@ -6,9 +6,9 @@ import store from './redux';
 import App from './app';
 import './index.css';
 
-store.subscribe(() => console.log(store.getState()))
 
-console.log(store.getState());
+
+
 
 ReactDOM.render(
   <React.StrictMode>

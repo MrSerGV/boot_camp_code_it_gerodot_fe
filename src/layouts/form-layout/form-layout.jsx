@@ -60,7 +60,7 @@ const FormLayout = ({
   const onFileChange = e => {
     const newFile = e.target.files[0];
     if (fileHelper.isTypeAllowed(newFile.type)) {
-      console.log('valid')
+   
       setFile(newFile);
     } else unSupported(newFile.type)
 

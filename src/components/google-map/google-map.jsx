@@ -17,7 +17,7 @@ let counter = 1
   const addMarkers = (places) => {
     
     places.forEach((place) => {
-      console.log(place.coords)
+      
       let marker = new window.google.maps.Marker({
         map,
         position: place.coords,
