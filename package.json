@@ -22,7 +22,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "proxy": "http://localhost:3007",
+  "proxy": "https://gerodot.herokuapp.com/",
   "eslintConfig": {
     "extends": "react-app"
   },
