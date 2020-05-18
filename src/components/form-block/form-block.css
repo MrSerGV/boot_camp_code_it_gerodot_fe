@@ -1,0 +1,17 @@
+.form-block {
+  width: 100%;
+  padding: 40px 36px 32px;
+  border-radius: 10px;
+}
+
+.form-green {
+  background-color: var(--green-light-transparent);
+}
+.form-yellow {
+  background-color: var(--yellow-light-transparent);
+}
+
+.form-heading {
+  color: var(--gray-dark);
+  margin-bottom: 20px;
+}

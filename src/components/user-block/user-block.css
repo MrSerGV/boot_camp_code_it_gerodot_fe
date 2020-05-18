@@ -1,0 +1,62 @@
+.header .user-block {
+  width: calc(30% - 90px);
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--yellow);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.user-block__inner {
+  position: relative;
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+}
+
+.user-info {
+  padding: 19px;
+  margin-bottom: -13px;
+  margin-top: -13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.user-info ~ button:last-of-type {
+  margin-left: 70px;
+}
+
+.user-info:hover,
+.info-hidden .user-info {
+  background-color: var(--green-light-transparent);
+}
+
+.user-info__avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: var(--gray);
+  margin-right: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-info__name {
+  color: var(--gray-dark);
+}
+
+
+@media screen and (max-width: 1200px) {
+  .header .user-block {
+    max-width: 375px;
+    width: 40%;
+  }
+
+  .user-info ~ button:last-of-type {
+    margin-left: 20px;
+  }
+}

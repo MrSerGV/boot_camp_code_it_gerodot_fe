@@ -1,0 +1,29 @@
+.input {
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  line-height: 16px;
+  color: var(--black);
+  border: 2px solid var(--gray);
+  border-radius: 5px;
+  padding: 10px 19px;
+  background-color: transparent;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+}
+
+.input::placeholder, .input {
+  font-size: 16px;
+  font-family: inherit;
+  line-height: 16px;
+  color: var(--black);
+}
+
+.form-input {
+  margin-bottom: 22px;
+}
+
+.input-file {
+  display: none;
+}

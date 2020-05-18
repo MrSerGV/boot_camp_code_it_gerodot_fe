@@ -1,0 +1,16 @@
+.user-info-dropdown {
+  position: absolute;
+  top: calc(100% + 10px + 4px);
+  left: 0;
+  right: 0;
+  padding: 20px 30px;
+
+  background-color: var(--white);
+  color: var(--green);
+  font-size: 22px;
+  line-height: 25px;
+}
+
+.user-info-dropdown__row {
+  padding: 10px 0;
+}

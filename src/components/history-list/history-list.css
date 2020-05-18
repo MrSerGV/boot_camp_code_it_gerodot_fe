@@ -1,0 +1,30 @@
+.history-list {
+  position: relative;
+  border-radius: 10px;
+}
+
+.history-list-content {
+  padding: 70px
+}
+
+.history-list .btn-slide {
+  position: absolute;
+  top: 50%;
+}
+
+.history-list .btn-slide__left {
+  left: 40px;
+}
+
+.history-list .btn-slide__right {
+  right: 40px;
+}
+
+.history-list__yellow,
+.history-list__yellow .history-list-item:hover {
+  background-color: var(--yellow-light-transparent);
+} 
+.history-list__green,
+.history-list__green .history-list-item:hover {
+  background-color: var(--green-light-transparent);
+} 

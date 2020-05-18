@@ -1,0 +1,18 @@
+.left-side {
+  width: 100%;
+  position: relative;
+  background-color: var(--yellow-light);
+}
+
+.left-side::before {
+  content: '';
+  position: absolute;
+  width: 40%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--green-light);
+  z-index: -5;
+}
