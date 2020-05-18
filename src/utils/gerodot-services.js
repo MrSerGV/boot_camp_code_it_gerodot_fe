@@ -1,6 +1,6 @@
 import API_KEY from '../utils/api-key';
 
-const API_URL = 'https://gerodot.herokuapp.com/';
+const API_URL = 'https://gerodot.herokuapp.com';
 
 const API_URL_ADDRESS = `/geopoint`;
 const API_URL_FILE = `${API_URL}/uploadedFile`;
